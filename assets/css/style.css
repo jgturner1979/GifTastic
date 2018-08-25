@@ -1,0 +1,115 @@
+body {
+    background-color: #584848;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #393B45;
+}
+
+#banner {
+    position: relative;
+    padding: 0px;
+    align-content: center;
+}
+
+.intro {
+    width: 100%;
+    text-align: center;
+    background-color: #393B45;
+    color: #F3B54A;
+    margin-bottom: 20px;
+    padding: 30px;
+    font-family: 'Slackey', cursive;
+    font-size: 70px;
+}
+
+.topics-btn {
+    background-color: #6E7889;
+    margin-right: 10px;
+}
+
+.results {
+    display: inline-block;
+    position: relative;
+    color: #F3B54A;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+img {
+    display: inline-block;
+    border: 1px solid #6E7889;
+}
+
+#form {
+    color: #D8D9DE;
+    margin: 0 auto;
+    margin: 20px;
+}
+
+#search-input {
+    margin-bottom: 20px;
+}
+
+#search {
+    background-color: #6E7889;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    #banner {
+        position: relative;
+        padding: 0px;
+        align-content: center;
+    }
+    .intro {
+        width: 100%;
+        text-align: center;
+        background-color: #393B45;
+        color: #F3B54A;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-family: 'Slackey', cursive;
+        font-size: 40px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    #banner {
+        position: relative;
+        padding: 0px;
+        align-content: center;
+    }
+    .intro {
+        width: 100%;
+        text-align: center;
+        background-color: #393B45;
+        color: #F3B54A;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-family: 'Slackey', cursive;
+        font-size: 50px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    #banner {
+        position: relative;
+        padding: 0px;
+        align-content: center;
+    }
+    
+    .intro {
+        width: 100%;
+        text-align: center;
+        background-color: #393B45;
+        color: #F3B54A;
+        margin-bottom: 20px;
+        padding: 30px;
+        font-family: 'Slackey', cursive;
+        font-size: 70px;
+    }
+}
